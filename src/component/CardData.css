@@ -1,0 +1,92 @@
+.mainCard{
+    padding: 0;
+    margin: 0px 10px 0px 10px;
+    margin-left: 10px;
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.mainCard__data{
+    margin: 0px 15px 0px 15px;
+}
+.mainCard__title{
+    display: flex;
+    justify-content: space-between;
+}
+.mainCard__title__name{
+    font-size: 20px;
+    font-weight: 700;
+}
+.mainCard__budget{
+    display: flex;
+
+}
+.mainCard__budget__label__dout{
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: 1000;
+    color: grey;
+    
+}
+.mainCard__budget__label{
+color: grey;
+font-weight: 600;
+word-spacing: 4px ;
+}
+.mainCard__expiryDate__section__Amount{
+    display: flex;
+    flex-direction: column;
+}
+.mainCard__expiryDate__section__Amount__label{
+    color: grey;
+font-weight: 600;
+word-spacing: 4px ;
+}
+.mainCard__expiryDate__section{
+    /* display: grid;
+    grid-template-columns: auto auto auto; */
+    display: flex;
+    justify-content: space-between;
+    /* margin: 0px 10px 0px 10px; */
+}
+.mainCard__expiryDate__section__Amount__price{
+    font-weight: 600;
+    margin-left: -15px;
+}
+.mainCard__slider {
+    border-radius: 25px;
+    background: linear-gradient(to right, green 0%, green 70%, red 30%, red 100%);
+    margin: 20px 0px 20px 0px;
+}
+.mainCard__slider__div{
+    width: 100%;
+    height: 10px;
+}
+.mainCard__slider__spent{
+    display: flex;
+    justify-content: space-between;
+
+}
+.mainCard__slider__balance{
+    display: flex;
+    justify-content: space-between;
+    padding:10px 0px 10px 0px;
+}
+.mainCard__slider__balance__style{
+    font-weight: 600;
+}
+.mainCard__slider__spent__dout__spent{
+    background: green;
+    height: 10px;
+    width: 10px;
+    margin-top: 9px;
+    margin-right: 10px;
+    border-radius: 50px;
+}
+.mainCard__slider__spent__dout__balance{
+    background: red;
+    height: 10px;
+    width: 10px;
+    margin-top: 9px;
+    margin-right: 10px;
+    border-radius: 50px;
+}

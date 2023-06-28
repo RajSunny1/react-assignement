@@ -1,0 +1,14 @@
+.Navbar__main{
+    display: flex;
+    gap:20px;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+}
+.tab__active{
+    color: red;
+    border-bottom: 2px solid red;
+}
+.horizantal__line{
+    margin-top: 0px;
+}
